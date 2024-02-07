@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\RazorPagesMovie\\RazorPagesMovie.csproj": {}
+    "C:\\Users\\USER\\repos\\movies-app-razor-pages\\RazorPagesMovie.csproj": {}
   },
   "projects": {
-    "F:\\RazorPagesMovie\\RazorPagesMovie.csproj": {
+    "C:\\Users\\USER\\repos\\movies-app-razor-pages\\RazorPagesMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\RazorPagesMovie\\RazorPagesMovie.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\repos\\movies-app-razor-pages\\RazorPagesMovie.csproj",
         "projectName": "RazorPagesMovie",
-        "projectPath": "F:\\RazorPagesMovie\\RazorPagesMovie.csproj",
+        "projectPath": "C:\\Users\\USER\\repos\\movies-app-razor-pages\\RazorPagesMovie.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "F:\\RazorPagesMovie\\obj\\",
+        "outputPath": "C:\\Users\\USER\\repos\\movies-app-razor-pages\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
